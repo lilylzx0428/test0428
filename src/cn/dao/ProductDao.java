@@ -65,6 +65,7 @@ public class ProductDao {
         try {
             pre = con.prepareStatement(sql);
             //配置参数
+            //test
             pre.setString(1, product.getName());
             pre.setDouble(2, product.getPrice());
             pre.setString(3, product.getRemark());
