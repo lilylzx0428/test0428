@@ -14,7 +14,7 @@ public class ProductDao {
         ProductDao dao = new ProductDao();
 //        dao.update(4,"meizu", 1800, "lalala");
 //        dao.del(4);
-        Product product=new Product();
+        Product product = new Product();
         product.setId(3);
         product.setName("xiaomi");
         product.setPrice(9999);
@@ -73,8 +73,6 @@ public class ProductDao {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
-
-
 
     }
 }
